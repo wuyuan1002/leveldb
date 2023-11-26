@@ -12,6 +12,9 @@
 // cd third_party
 // git submodule update --init
 //
+// 编写一个单测，用来测试 -- example/main.cpp
+// 在CMakeLists.txt中增加一行（第391行）：leveldb_test("example/main.cpp")
+//
 // 开始编译:
 // mkdir -p build && cd build
 // cmake -DCMAKE_BUILD_TYPE=Release .. && cmake --build .
